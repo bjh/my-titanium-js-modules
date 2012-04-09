@@ -52,7 +52,7 @@ p.__value__ = function(item) {
 
 // add a control to the form view/container
 p.add = function(item) {
-	//TODO: this is starting to border on unweildy and ridiculous might need some refactoring love
+	//TODO: this is starting to border on unweildy and ridiculous. might need some refactoring love
 	this.container.add(item.widget);
 	
 	// show info button if set
